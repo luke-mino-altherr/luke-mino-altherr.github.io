@@ -144,15 +144,6 @@ body {
  * Affix and center
  */
 
-@media (min-width: 320px) {
-  .site-wrapper {
-    background: url('../img/cover-512.jpg');
-    background-size:cover;
-    background-position:center;
-  }
-
-}
-
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
