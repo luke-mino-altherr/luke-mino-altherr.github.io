@@ -1,5 +1,4 @@
 h1 {
-
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
@@ -9,4 +8,13 @@ h1 {
 	font-style: italic;
 	font-weight: 100;
 	letter-spacing: 2px;
+}
+
+@media (min-width: 320px) {
+  h1 {
+    font-size: 70%;
+  }
+  .lead {
+    font-size: 70%;
+  }
 }
