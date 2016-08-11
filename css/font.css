@@ -1,0 +1,12 @@
+h1 {
+
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 5px;
+}
+.lead {
+	font-style: italic;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
