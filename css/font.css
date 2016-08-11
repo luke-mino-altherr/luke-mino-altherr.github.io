@@ -3,18 +3,12 @@ h1 {
 	font-variant: normal;
 	font-weight: normal;
 	letter-spacing: 5px;
+	font-size: 2.250em;
 }
 .lead {
 	font-style: italic;
 	font-weight: 100;
 	letter-spacing: 2px;
+	font-size: 1em;
 }
 
-@media (max-width: 736px) {
-  h1 {
-    font-size: 90%;
-  }
-  .lead {
-    font-size: 90%;
-  }
-}
