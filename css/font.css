@@ -12,3 +12,8 @@ h1 {
 	font-size: 1em;
 }
 
+@media (max-width: 736px) {
+  h1 {
+    font-size: 97%;
+  }
+}
