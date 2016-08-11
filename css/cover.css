@@ -38,8 +38,6 @@ body {
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
-  background-size:cover;
-  background-position:center;
   display: table;
   width: 100%;
   height: 100%; /* For at least Firefox */
@@ -149,6 +147,8 @@ body {
 @media (min-width: 320px) {
   .site-wrapper {
     background: url('../img/cover-512.jpg');
+    background-size:cover;
+    background-position:center;
   }
 
 }
@@ -178,6 +178,8 @@ body {
   }
   .site-wrapper {
     background: url('../img/cover-1024.jpg');
+    background-size:cover;
+    background-position:center;
    }
 }
 
@@ -192,6 +194,8 @@ body {
   }
   .site-wrapper {
     background: url('../img/cover-2048.jpg');
+    background-size:cover;
+    background-position:center;
    }
 }
 
