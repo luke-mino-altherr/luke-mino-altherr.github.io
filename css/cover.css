@@ -199,6 +199,22 @@ body {
    }
 }
 
+@media (min-height: 1365px) {
+  .site-wrapper {
+    background: url('../img/cover-2048.jpg');
+    background-size:cover;
+    background-position:center;
+   }
+}
+
+@media (min-height: 680px) {
+  .site-wrapper {
+    background: url('../img/cover-1024.jpg');
+    background-size:cover;
+    background-position:center;
+   }
+}
+
 /*
  * Bootstrap Override
  */
