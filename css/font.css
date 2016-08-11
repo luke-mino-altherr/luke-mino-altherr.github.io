@@ -10,11 +10,11 @@ h1 {
 	letter-spacing: 2px;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 736px) {
   h1 {
-    font-size: 70%;
+    font-size: 90%;
   }
   .lead {
-    font-size: 70%;
+    font-size: 90%;
   }
 }
