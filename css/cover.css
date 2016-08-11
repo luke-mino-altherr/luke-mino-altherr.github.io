@@ -38,7 +38,6 @@ body {
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
-  background: url('../img/cover.jpg');
   background-size:cover;
   background-position:center;
   display: table;
@@ -147,6 +146,13 @@ body {
  * Affix and center
  */
 
+@media (min-width: 320px) {
+  .site-wrapper {
+    background: url('../img/cover-512.jpg');
+  }
+
+}
+
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
@@ -170,6 +176,9 @@ body {
   .cover {
     border-radius:0px;
   }
+  .site-wrapper {
+    background: url('../img/cover-1024.jpg');
+   }
 }
 
 @media (min-width: 992px) {
@@ -181,6 +190,9 @@ body {
   .cover {
     border-radius:10px;
   }
+  .site-wrapper {
+    background: url('../img/cover-2048.jpg');
+   }
 }
 
 /*
